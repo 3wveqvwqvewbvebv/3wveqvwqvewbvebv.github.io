@@ -1,0 +1,488 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Redeem | Oricoins</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="https://oricoins5.github.io"><img src="images/logo.png" alt="logo" height="50%" width="50%"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#" class="txt">Balance:</a></li>
+                <li><a class="text" id="text" href="#">0</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="index.html">Home</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div class="overlay">
+        <a class="close">×</a>
+        <div class="overlay__content">
+            
+            <a class="text" id="text" href="#">currentbalance</a>
+            <a href="#">Balance: </a>
+        </div>
+    </div>
+    <div class="container container2">
+        <input type="text" id="storage" class="storage" style="display: none;">
+        <!--<p class="text" id="text">text</p>--->
+        <div class="container">
+                <div class="product">
+                    
+                    <div class="product-inner" id="productBox">
+                        <div class="product-front" style="
+    left: 210px;
+">
+                            <div class="product-top">
+                                <h1>Figit</h1>
+                                <div class="figitimgdiv" onmouseover="changeocapticty()">
+                                <img  style="margin-top: 50px;" src="images/figitcube.png" id="figitimg" class="figitimg" style="opacity: 1;">
+                                </div>
+                            </div>
+                            <div class="product-bottom">
+                                <p>Paper toys</p>
+                                <h2>Paper Figit Cube</h2>
+                                <h6>Color: <span style="color:rgb(0, 0, 0);margin-bottom: 0px;">BLACK &amp; <span style="color:wheat">WHITE</span></span></h6>
+                                <h1 id="figitrich"><span style="color: black;" id="price">450 </span><span style="vertical-align: super; color: red; margin-left:5px; font-size: 11px;">-30%</span><span style="color: rgb(0, 0, 0); margin-left:5px; margin-right:5px;">315</span><span>Oricoins</span></h1>
+                                <h1 id="figitbanner"><span style="color: black;" id="price">450 </span><span>Oricoins</span></h1>
+                                <input type="number" id="figitq" placeholder="Quantity" class="disabled" disabled="">
+                                <input type="password" id="adpasssfigit" placeholder="Admin Password" class="disabled" disabled="">
+                                <button type="button" class="buy" onclick="buyfigit()" style="background-color:rgba(166, 149, 158, 0.38)" disabled="">Buy Now</button>
+                                <h6>*Oricoins are immedietly deducted.</h6>
+                                <button style="padding-top: 5px; padding-bottom: 5px;border: none;">RETAIL VALUE: <span style="color: 005384;">250 Oricoins</span></button>
+                                <h5 style="color:red">*Out of Stock!</h5>
+                                <div class="color-select">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+    <div class="container" style="margin-left: 10px;">
+                <div class="product">
+                    
+                    <div class="product-inner" id="productBox" style="
+    left: 210px;
+">
+                        <div class="product-front">
+                            <div class="product-top product-top2">
+                                <h1>Twist</h1>
+                                <div class="figitimgdiv" onmouseover="changeocapticty()">
+                                <img style="margin-top: 50px;"src="images/twistcube.png" id="figitimg" class="figitimg">
+                                </div>
+                            </div>
+                            <div class="product-bottom">
+                                <p>Paper toys</p>
+                                <h2>Twist Cube</h2>
+                                <h6>Color: <span style="color:rgb(193, 193, 26);margin-bottom: 0px;">YELLOW</span></h6>
+                                <h1>50 <span>Oricoins</span></h1>
+                                
+                                
+                                <input type="number" id="twistq" placeholder="Quantity">
+                                <input type="password" id="adpassstwist" placeholder="Admin Password">
+                                <button type="button" class="buy" onclick="buytwist()">Buy Now</button>
+                                <h6>*Oricoins are immedietly deducted.</h6>
+                                <button style="padding-top: 5px; padding-bottom: 5px;border: none;">RETAIL VALUE: <span style="color: 005384;">10 Oricoins</span></button>
+                                <h5 style="color:green">*In Stock</h5>
+                                <div class="color-select">
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+    </div></div>
+
+    <div class="container" style="margin-left: 10px;">
+                <div class="product">
+                    
+                    <div class="product-inner" id="productBox">
+                        <div class="product-front" style="
+    left: 210px;
+">
+                            <div class="product-top product-top3">
+                                <h1>Pillow</h1>
+                                <div class="figitimgdiv" onmouseover="changeocapticty()">
+                                <img style="margin-top: 75px;" src="images/pillow.png" id="figitimg" class="figitimg">
+                                </div>
+                            </div>
+                            <div class="product-bottom">
+                                <p>Paper Pillow</p>
+                                <h2>Pillow of Twist Cubes</h2>
+                                <h6>Color: <span style="color:rgb(214, 214, 184);margin-bottom: 0px;">WHITE</span></h6>
+                                <h1 id="pillowrich"><span style="color: black;" id="price1">550 </span><span id="richspecific2" style="vertical-align: super; color: red; margin-left:5px; font-size: 11px;">-30%</span><span id="richspecific3" style="color: rgb(0, 0, 0); margin-left:5px; margin-right:5px;">385</span><span>Oricoins</span></h1>
+                                <h1 id="pillowbanner"><span style="color: black;" id="price">550 </span><span>Oricoins</span></h1>
+                                
+                                
+                                <input type="number" id="pillowq" placeholder="Quantity" class="disabled" disabled="">
+                                <input type="password" id="adpasspillow" placeholder="Admin Password" class="disabled" disabled="">
+                                <button type="button" class="buy" onclick="buypillow()" style="background-color:rgba(166, 149, 158, 0.38)" disabled="">Buy Now</button>
+                                <h6>*Oricoins are immedietly deducted.</h6>
+                                <button onclick="showbanner()" style="padding-top: 5px; padding-bottom: 5px;border: none;">RETAIL VALUE: <span style="color: 005384;">300 Oricoins</span></button>
+                                <h5 style="color:rgb(255, 0, 0)">*Out of Stock!</h5>
+                                <div class="color-select">
+
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+    </div></div>
+    <div class="container" style="margin-left: 10px;">
+        <div class="product">
+            
+            <div class="product-inner" id="productBox">
+                <div class="product-front" style="
+left: 210px;
+">
+                    <div class="product-top product-top4">
+                        <h1>Rich</h1>
+                        <div class="figitimgdiv" onmouseover="changeocapticty()">
+                        <img style="margin-top: 75px;" src="images/oricard.png" id="figitimg" class="figitimg">
+                        </div>
+                    </div>
+                    <div class="product-bottom">
+                        <p>Badge</p>
+                        <h2>Rich Person Badge</h2>
+                        
+                        <p>Get 30% off on all purchases over 100 Oricoins</p>
+                        <p>And also get a small badge on the homepage.</p>
+                        <h1>3,000 <span>Oricoins</span></h1>
+                        
+                        
+                        <button type="button" class="buy" onclick="buyrichbadge()" id="buydiscount1badge">Buy Now</button>
+                        <h6>*Oricoins are immedietly deducted.</h6>
+                        <h5 style="color:rgb(158, 158, 5)">*Virtuial Purchase</h5>
+                        <div class="color-select">
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+</div></div>
+        
+            
+            
+    
+    </div>
+    <form class="riddles" id="unbanbanner" style="display: none; height: 275px; z-index: 1000;">
+        <h1 class="riddlehead">Unban Account</h1>
+        <p></p>
+        <p></p>
+        <h2 style="padding-top: 10px;">Unbanning your account shows that you agree to the following:</h2>
+        <p></p>
+        <p></p>
+        <h4 style="padding-top: 10px;">I will stop using the admin password.</h4>
+        <h4 style="padding-top: 10px;">I understand that all my Oricoins will be deleted.</h4>
+        <p></p>
+        <p></p>
+        <button type="submit" class="addcoinsub" id="forcecoin" onclick="unbanaccount()">Unban Account</button>
+
+
+    </form>
+
+
+
+
+
+<script type="text/javascript" src="mobile.js"></script>
+<script>
+
+
+
+//declare variables
+var pillowbanner = document.getElementById("pillowbanner");
+var figitbanner = document.getElementById("figitbanner");
+var pillowrich = document.getElementById("pillowrich");
+var figitrich = document.getElementById("figitrich");
+var richspecific = document.getElementById("richspecific");
+var richspecific1 = document.getElementById("richspecific1");
+var richspecific2 = document.getElementById("richspecific2");
+var richspecific3 = document.getElementById("richspecific3");
+var pricetxt = document.getElementById("price");
+var pricetxt1 = document.getElementById("price1");
+var buydiscount1badge = document.getElementById("buydiscount1badge");
+var haxtxt = document.getElementById("haxtxt");
+var sdfasf = "greenskybluegrass";
+var admintxt = document.getElementById('admintxt');
+var admintxtinput = document.getElementById('setadmintxt');
+var unbanbanner = document.getElementById("unbanbanner");
+var banbypass = document.getElementById("banbypass");
+var isbanned = localStorage.getItem('banned');
+var isadmin = localStorage.getItem('isadmin');
+var ishacker = localStorage.getItem('ishacker');
+var discount1 = localStorage.getItem('discount1');
+var counter = 1;
+var figitq = document.getElementById('figitq');
+var twistq = document.getElementById('twistq');
+var storagevar = document.getElementById("storage"); 
+//var retailTwist = document.getElementById("retailTwist");
+const storageInput = document.querySelector('.storage');
+const text =  document.querySelector('.text');
+const button = document.querySelector('.button');
+const storedInput = localStorage.getItem('currentcoinsval');
+//check if something is in local storage and then set the text value to that
+if(storageInput){
+    text.textContent = storedInput;
+    var counter = storedInput;
+}
+//other
+unbanbanner.style.display="none";
+storagevar.style.display = "none";
+pillowrich.style.display="none";
+figitrich.style.display="none";
+pillowbanner.style.display="block";
+figitbanner.style.display="block";
+var qfigit = figitq.value;
+var qtwist= twistq.value;
+var passval = document.getElementById("adpassstwist").value;
+var passval = document.getElementById("adpasssfigit").value;
+var pillowqvar = document.getElementById("pillowq");
+var qpillow= pillowqvar.value;
+
+
+if(discount1=="true"){
+    //buydiscount1badge.value="Owned";
+    buydiscount1badge.style.backgroundColor="rgba(166, 149, 158, 0.38)"
+    buydiscount1badge.disabled = true;
+    pricetxt.classList.add("discountredeemprice");
+    pricetxt1.classList.add("discountredeemprice");
+    pillowrich.style.display="block";
+    figitrich.style.display="block";
+    pillowbanner.style.display="none";
+    figitbanner.style.display="none";
+}
+if(discount1=="false"){
+    
+}
+if(discount1!="true" & discount1!="false"){
+    discount1 = false;
+    localStorage.setItem('discount1', discount1);
+}
+
+
+
+
+if(isadmin=="true"){
+    admintxt.style.display="block"
+}
+if(isadmin=="false"){
+    admintxt.style.display="none"
+}
+if(isadmin!="true" & isadmin!="false"){
+    isadmin = false;
+    localStorage.setItem('isadmin', isadmin);
+}
+
+
+if(ishacker=="true"){
+    haxtxt.style.display="block"
+}
+if(ishacker=="false"){
+    haxtxt.style.display="none"
+}
+if(ishacker!="true" & ishacker!="false"){
+    ishacker = false;
+    localStorage.setItem('ishacker', ishacker);
+}
+
+
+
+function hidebanner(banner){
+    banner.style.display = "none";
+    adminpass.value="";
+    numofcoin.value="";
+}
+function showbanner(banner){
+    banner.style.display = "block";
+}
+
+
+function checkvalfigit(){
+    if(figitq.value != 1){
+        figitq.style.color="red";
+    }else{
+        figitq.style.color="#008384"
+    }
+
+}
+function checkvaltwist(){
+    if(twistq.value < 1){
+        twistq.style.color="red";
+    }else{
+        twistq.style.color="#008384"
+    }
+}
+function checkvalpillow(){
+    if(pillowqvar.value != 1){
+        pillowqvar.style.color="red";
+    }else{
+        pillowqvar.style.color="#008384"
+    }
+}
+figitq.addEventListener('input', checkvalfigit);
+twistq.addEventListener('input', checkvaltwist);
+pillowqvar.addEventListener('input', checkvalpillow);
+function buytwist(){
+    qfigit = figitq.value;
+    qtwist= twistq.value;
+    passval = document.getElementById("adpassstwist").value;
+    if(passval==sdfasf & qtwist > 0 & counter-(qtwist*50)>=0){
+    counter=counter-(qtwist*50);
+    text.textContent = counter;
+    localStorage.setItem('currentcoinsval', text.textContent)
+    alert("Transaction completed. Expect order to arrive within a week.")
+    window.location.reload();
+    //document.getElementById("adpassstwist").value = "";
+    //twistq.value="1";
+    }else{
+        alert("Error!")
+        window.location.reload();
+}
+}
+var price=0;
+var qprice=0;
+function buyfigit(){
+    price=450
+    qprice=450*qfigit;
+    
+    qfigit = figitq.value;
+    qtwist= twistq.value;
+    if(discount1=="true"){
+        price=315;
+        qprice=price*qfigit;
+    }
+    passval = document.getElementById("adpasssfigit").value;
+    if(passval==sdfasf & qfigit > 0 & qfigit < 2 & counter-qprice>=0){
+    counter=counter-(qfigit*450);
+    text.textContent = counter;
+    localStorage.setItem('currentcoinsval', text.textContent)
+    alert("Transaction completed. Expect order to arrive within a week.")
+    passval="";
+    window.location.reload();
+    //document.getElementById("adpasspillow").value = "";
+    //twistq.value="1";
+    }else{
+        alert("Error!")
+        passval="";
+}
+}
+
+function buypillow(){
+    price=550
+    qprice=550*qpillow;
+
+    if(discount1=="true"){
+        price=385;
+        qprice=price*qpillow;
+    }
+
+    qpillow = pillowqvar.value;
+    passval = document.getElementById("adpasspillow").value;
+    if(passval==sdfasf & qpillow > 0 & qpillow < 2 & counter-qprice>=0){
+    counter=counter-(qpillow*550);
+    text.textContent = counter;
+    localStorage.setItem('currentcoinsval', text.textContent)
+    alert("Transaction completed. Expect order to arrive within a week.")
+    passval="";
+    window.location.reload();
+    //document.getElementById("adpassstwist").value = "";
+    //twistq.value="1";
+    }else{
+        alert("Error!")
+        passval="";
+}
+}
+
+function buyrichbadge(){
+    if(counter-3000>=0){
+    counter=counter-3000;
+    text.textContent = counter;
+    localStorage.setItem('currentcoinsval', text.textContent)
+    discount1=true;
+    localStorage.setItem('discount1', discount1)
+    alert("Item should be instantly avaliable, contact admin for further assistance.")
+    window.location.reload();
+    //document.getElementById("adpassstwist").value = "";
+    //twistq.value="1";
+    }else{
+        alert("Error!")
+}
+}
+
+
+function unban(){
+    if (banbypass.value=="3487fg0yvbpqiwupj93jp93uhpr48iuvhnworicoinunban"){
+        banbypass.value="";
+        unbanbanner.style.display="block";
+    }
+}
+function unbanaccount(){
+    
+        isbanned = false;
+        localStorage.setItem('banned', isbanned);
+
+        window.location.reload();
+        text.textContent = 0;
+        localStorage.setItem('currentcoinsval', text.textContent);
+        if(isbanned=="true"){
+            banbox.style.display="none";
+            unbanbanner.style.display="none";
+        }
+        
+}  
+banbypass.addEventListener('input', unban);
+admintxtinput.addEventListener('input',() => { 
+    if(admintxtinput.value=="s8347gfbvcqweoiuyvbqw3p8ru4hovi" & isadmin =="false"){
+        alert("Admin Granted")
+        isadmin = true;
+        localStorage.setItem('isadmin', isadmin);
+        window.location.reload();
+    }
+    if(admintxtinput.value=="s8347gfbvcqweoiuyvbqw3p8ru4hovi1" & isadmin =="true"){
+        alert("Admin Revoked")
+        isadmin = false;
+        localStorage.setItem('isadmin', isadmin);
+        window.location.reload();
+    }
+    if(admintxtinput.value=="haxdef"){
+        alert("Hacker badge revealed")
+        ishacker = true;
+        localStorage.setItem('ishacker', ishacker);
+        window.location.reload();
+    }
+});
+
+var figitimg = document.getElementById('figitimg');
+
+        setTimeout(() => {figitimg.style.opacity = "25%";}, 1);
+        function changeocapticty(){
+            figitimg.style.opacity = "100%";
+        }
+//makes the text say whatever is in the input
+storageInput.addEventListener('input', letter => {  
+    //where it should be storagevar.value = counter; 
+    console.log(letter.target.value)
+    //text.textContent = counter;
+})
+//creates function to save text value to local storage
+const saveToLocalStorage = () => {
+    text.textContent = counter;
+    counter++;
+    
+    localStorage.setItem('currentcoinsval', text.textContent)
+}
+//checks if button is pressed and executes the function to save to local storage
+button.addEventListener('click', saveToLocalStorage)
+</script>
+</body></html>
