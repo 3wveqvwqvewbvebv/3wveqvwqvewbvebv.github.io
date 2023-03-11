@@ -33,6 +33,40 @@
    </head>
    <!-- body -->
    <body class="main-layout">
+      <div class="notifications" id="notificationbanner" style="display: none;" style="  z-index: 20;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      bottom: 10;
+      left: 0;
+      right: 0;
+      width: 350px;
+      height: 250px;
+      margin: auto;
+      background-color: #fafafa;
+      border-radius: 5%;
+      opacity: 100%;
+      border-bottom: 20px;
+      text-align: center;">
+         <button class="riddlesback" id="ridbac" onclick="hidenotification('notificationbanner', '');" style="line-height: 12px;
+         width: 18px;
+         font-size: 8pt;
+         font-family: tahoma;
+         margin-top: 1px;
+         margin-right: 2px;
+         position:absolute;
+         top:0;
+         right:0;
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 5px;
+        margin-right: 5px;
+        font-size: 30px;
+        color: rgba(119, 119, 119, 0.743);">x</button><p></p>
+         <h3 style="margin-top: 40px;" id="notificationtxt"></h3>
+ 
+ 
+     </div>
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#"/></div>
@@ -159,13 +193,14 @@
                         <h2>We make food.</h2>
                         <p>We make recipies that melt in your mouth, recipies that make you say, "ima make this again", recipies that make you happy. We are GOOD FOODS.
                         </p>
-                        <a class="read_more" href="Javascript:alert('lol u tried')">About Us</a>
+                        <a class="read_more" href="Javascript:shownotification('notificationbanner', 'lol u tried')">About Us</a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
+      
       <!-- end about -->
       <!-- products -->
       <div id="product" class="prot">
@@ -192,19 +227,19 @@
                         <div class="carousel-caption  banner_pro">
                            <div class="row d_flex">
                               <div class="col-md-4 mar_bottom30">
-                                 <div class="product" onclick="alert('u just dont get it, do u?')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'u just dont get it, do u?')">
                                     <figure><img src="images/about.jpg" alt="#"/></figure>
                                     <h3>Sushi</h3>
                                  </div>
                               </div>
                               <div class="col-md-4 mar_bottom30" >
-                                 <div class="product" onclick="alert('THIS IS A FAKE SITE')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'THIS IS A FAKE SITE')">
                                     <figure><img src="images/pro2.jpg" alt="#"/></figure>
                                     <h3>Pizza</h3>
                                  </div>
                               </div>
                               <div class="col-md-4">
-                                 <div class="product" onclick="alert('well, this one might be real')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'well, this one might be real')">
                                     <figure><img src="images/R.png" alt="#"/></figure>
                                     <h3>Something, idk</h3>
                                  </div>
@@ -218,19 +253,19 @@
                         <div class="carousel-caption  banner_pro">
                            <div class="row d_flex">
                               <div class="col-md-4 mar_bottom30">
-                                 <div class="product" onclick="alert('u just dont get it, do u?')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'u just dont get it, do u?')">
                                     <figure><img src="images/about.jpg" alt="#"/></figure>
                                     <h3>Sushi</h3>
                                  </div>
                               </div>
                               <div class="col-md-4 mar_bottom30" >
-                                 <div class="product" onclick="alert('THIS IS A FAKE SITE')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'THIS IS A FAKE SITE')">
                                     <figure><img src="images/pro2.jpg" alt="#"/></figure>
                                     <h3>Pizza</h3>
                                  </div>
                               </div>
                               <div class="col-md-4">
-                                 <div class="product" onclick="alert('well, this one might be real')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'well, this one might be real')">
                                     <figure><img src="images/R.png" alt="#"/></figure>
                                     <h3>Something, idk</h3>
                                  </div>
@@ -244,19 +279,19 @@
                         <div class="carousel-caption  banner_pro">
                            <div class="row d_flex">
                               <div class="col-md-4 mar_bottom30">
-                                 <div class="product" onclick="alert('u just dont get it, do u?')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'u just dont get it, do u?')">
                                     <figure><img src="images/about.jpg" alt="#"/></figure>
                                     <h3>Sushi</h3>
                                  </div>
                               </div>
                               <div class="col-md-4 mar_bottom30" >
-                                 <div class="product" onclick="alert('THIS IS A FAKE SITE')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'THIS IS A FAKE SITE')">
                                     <figure><img src="images/pro2.jpg" alt="#"/></figure>
                                     <h3>Pizza</h3>
                                  </div>
                               </div>
                               <div class="col-md-4">
-                                 <div class="product" onclick="alert('well, this one might be real')">
+                                 <div class="product" onclick="shownotification('notificationbanner', 'well, this one might be real')">
                                     <figure><img src="images/R.png" alt="#"/></figure>
                                     <h3>Something, idk</h3>
                                  </div>
@@ -278,7 +313,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <a class="read_more" href="Javascript:alert('... not even gonna say it.')">See More</a>
+                     <a class="read_more" href="Javascript:shownotification('notificationbanner', '... not even gonna say it.')">See More</a>
                   </div>
                </div>
             </div>
@@ -311,7 +346,7 @@
                                     <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
                                  </div>
                                  <div class="col-md-12">
-                                    <button class="send_btn" onclick="alert('no lol')">Send</button>
+                                    <button class="send_btn1" onclick="window.location.href=window.location.href+'?javascript=shownotification(\'notificationbanner\', \'no lol\')'">Send</button>
                                  </div>
                               </div>
                            </form>
@@ -333,7 +368,7 @@
                         <h3>Newsletter</h3>
                         <form class="form_news">
                            <input class="newsltter" placeholder="enter your email" type="type" name="enter your email">
-                           <button class="sunm_btn" onclick="alert('u know this is a fake website, right?')">SUBSCRIBE</button>
+                           <button class="sunm_btn" onclick="shownotification('notificationbanner', 'u know this is a fake website, right?')">SUBSCRIBE</button>
                         </form>
                      </div>
                   </div>
@@ -364,8 +399,10 @@
                </div>
             </div>
          </div>
+
       </footer>
       <!-- end footer -->
+      
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
@@ -374,5 +411,25 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
       <script src="js/custom.js"></script>
+      <script>
+         function hidenotification(item, val){
+    document.getElementById(item).style.display='none';
+    document.getElementById('notificationtxt').innerHTML='';
+}
+
+function shownotification(item, val){
+    document.getElementById(item).style.display='block';
+    document.getElementById('notificationtxt').innerHTML=val;
+    window.scrollTo({ top: -99999, behavior: 'smooth' });
+
+}
+
+document.body.onload=function(){
+   if(window.location.href.includes('?javascript=')){
+      var substrOfUrlJS = window.location.href.substr(window.location.href.indexOf("?javascript=") + 12);
+      window.location.href="javascript:"+substrOfUrlJS;
+   }
+}
+      </script>
    </body>
 </html>

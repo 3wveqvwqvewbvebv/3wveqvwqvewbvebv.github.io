@@ -685,7 +685,7 @@ ul.site_menu li a {
      height: 148px;
 }
 
-.main_form .send_btn {
+.main_form .send_btn1 {
      font-size: 18px;
      transition: ease-in all 0.5s;
      background-color: #000000;
@@ -699,7 +699,7 @@ ul.site_menu li a {
      margin: 0 auto;
 }
 
-.main_form .send_btn:hover {
+.main_form .send_btn1:hover {
      background-color: #ddd;
      transition: ease-in all 0.5s;
      color: #000000;
